@@ -1,16 +1,27 @@
-const add = function() {
+const add = function(a,b) {
+	return a+b;
+};
+
+const subtract = function(a,b) {
+	return a-b;
+};
+
+const sum = function(a) {
+  let sum = 0;
+  if (a.length = 0){
+    return sum;
+  }else {
+  
+  for (i=0; i< a.length; i++){
+    sum = sum + a[i];
+
+  }}
+  return sum;
 	
 };
 
-const subtract = function() {
-	
-};
-
-const sum = function() {
-	
-};
-
-const multiply = function() {
+const multiply = function(a, b) {
+  return a*b;
 
 };
 
